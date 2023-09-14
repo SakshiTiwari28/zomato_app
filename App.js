@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM  from 'react-dom/client';
+import Body from './src/components/Body';
 
-const heading = React.createElement('h1',{},'Learning React');
+
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(heading)
+root.render(<Body />)
